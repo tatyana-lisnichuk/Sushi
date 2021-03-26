@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="заказ суши, акции, выгодные предложения">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <title>Заказать суши</title>
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="header__logo-wrap">
+      <a href="#" class="header__logo-link">
+        <img class="header__logo-img" src="imgs/fish.webp" alt="fish logo">
+        <span class="header__logo-text">Суши-шмастер</span>
+    </a>
+    </div>
+    
+    <button class="header__btn">Сделать заказ</button>
+  </div>
+</header>
+<section class="promo-section">
+  <div class="container">
+    <div class="promo-section__content">
+      <h1>Суши-шмастер - лучшее, что есть в твоем городе</h1>
+      <h2 class="promo-section__h2">Порадуй себя и своих родных и близких</h2>
+      <p class="promo-section__description">Ниже представлены наши самые популярные позиции за последние полгода работы на карантине</p>
+      <h3 class="promo-section__h3">Актуальные позиции</h3>
+      <div class="promo-grid">
+        <div class="promo-grid__rolls">
+          <!-- rolls-item1 -->
+          <div class="promo-grid__item rolls-item">
+            <div class="promo-grid__roll-img-wrap">
+              <img src="imgs/rolls1.webp" alt="зеленые роллы" title="Гринобль ролл"></div>
+            <div class="promo-grid__text-content">
+              <h4 class="promo-grid__h4">Гринобль ролл</h4>
+              <p class="promo-grid__descr">Закажи сей вкусный ролл, 
+              Он украсит ваший стол, Он порадует ваш глаз,
+              Получи скорей экстаз!</p>
+              <button class="promo-grid__btn">Заказать</button>
+            </div>
+          </div>
+           <!-- rolls-item2 -->
+          <div class="promo-grid__item rolls-item">
+            <div class="promo-grid__roll-img-wrap">
+              <img src="imgs/rolls2.webp" alt="роллы филадельфия" title="Оранжад ролл"></div>
+            <div class="promo-grid__text-content">
+              <h4 class="promo-grid__h4">Оранжад ролл</h4>
+              <p class="promo-grid__descr">Закажи сей вкусный ролл, 
+                Он украсит ваший стол, Он порадует ваш глаз,
+                Получи скорей экстаз!</p>
+              <button class="promo-grid__btn disabled">Недоступно к заказу</button>
+            </div>
+          </div>
+           <!-- rolls-item3 -->
+          <div class="promo-grid__item rolls-item">
+            <div class="promo-grid__roll-img-wrap">
+              <img src="imgs/rolls3.webp" alt="ролл с беконом" title="Брауни ролл"></div>
+            <div class="promo-grid__text-content">
+              <h4 class="promo-grid__h4">Брауни рол</h4>
+              <p class="promo-grid__descr">Закажи сей вкусный ролл, 
+              Он украсит ваший стол, Он порадует ваш глаз,
+              Получи скорей экстаз!</p>
+              <button class="promo-grid__btn disabled">Недоступно к заказу</button>
+            </div>
+          </div>
+        </div>
+        <div class="promo-grid__sets">
+          <div class="promo-grid__item sets-item">
+            <h5 class="promo-grid__h5 ">Синергетический сет</h5>
+            <div class="promo-grid__set1-img-wrap">
+              <img src="imgs/set1.webp" alt="синергетический сет" title="cет из суши на любой вкус"></div>
+               <h4 class="promo-grid__h4">А для абитуриентов у нас есть масса комплиментов!</h4>
+          </div>
+          <div class="promo-grid__item sets-item">
+            <div class="promo-grid__item sets-item">
+            <div class="promo-grid__set2-img-wrap">
+              <img src="imgs/set2.webp" alt="скарбовский сет" title="скарбовский сет">
+            </div>
+            <h5 class="promo-grid__h5">Скарбовский сет</h5>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</section>
+<section class="slider-section">
+  <div class="container">
+    
+    <h2 class="slider-section__title">Самые выгодные предложения:</h2>
+
+    <div class="slider">
+      <div class="slider__item">
+        <img src="imgs/slide1.png" alt="кревеки" title="заказ креветок">
+      </div>
+      <div class="slider__item">
+        <img src="imgs/slide2.png" alt="дорадо" title="заказ дорадо">
+      </div>
+      <div class="slider__item">
+        <img src="imgs/slide3.png" alt="водка в подарок к селедке" title="заказ селедки">
+      </div>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="container">
+    <p>Copyright <span class="year"></span></p>
+  </div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
